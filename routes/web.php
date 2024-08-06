@@ -1,12 +1,13 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
 });
 
-
-Route::get('/projects/all', function () {
-    return view('project');
+Route::controller(HomeController::class)->group(function(){
+    Route::get('/projects/all','index');
+    Route::get('/projects/{id}','by_category');
 });

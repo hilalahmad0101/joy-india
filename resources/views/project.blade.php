@@ -70,8 +70,11 @@
                                     $categories=\App\Models\Category::all();
                                     
                                 @endphp
+                                 <li class="filterbox__item   "><span><a href="/projects/all">All Projects</a>
+                                 </span>
+                         </li>
                                 @foreach ($categories as $category)
-                                <li class="filterbox__item   "><span><a href="">{{ $category->name }}</a>
+                                <li class="filterbox__item   "><span><a href="/projects/{{ $category->id }}">{{ $category->name }}</a>
                                         </span>
                                 </li>
                                 @endforeach
@@ -80,9 +83,6 @@
                     </div>
                     <div class=col-lg-9>
                         <h2> All Projects </h2>
-                        @php
-                            $projects=\App\Models\Project::all();
-                        @endphp
                         <div id="ls_values_list" class="row project__listing">
                             @foreach ($projects as $project)
                             <div class="col-lg-4 col-sm-12 col-md-6">
@@ -117,13 +117,13 @@
                             @endforeach
                         </div>
                         <div id="ls_values_list_msg"></div>
-                        <div><button class='btn btn-loadmore' id="load_more_button">Load More Projects</button></div>
+                        {{-- <div><button class='btn btn-loadmore' id="load_more_button">Load More Projects</button></div>
                         <div class="loadind-section loaderimg align-center">
                             <span id="project-loader" style="display:none;"><img
                                     src="https://joyofgiving.alumni.iitm.ac.in/theme/jog/images/loader.png"
                                     title="loader" alt="Loader" />
                             </span>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
