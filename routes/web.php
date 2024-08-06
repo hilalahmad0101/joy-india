@@ -9,5 +9,5 @@ Route::get('/', function () {
 
 Route::controller(HomeController::class)->group(function(){
     Route::get('/projects/all','index');
-    Route::get('/projects/{id}','by_category');
+    Route::get('/projects/{slug}','by_category');
 });

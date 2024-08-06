@@ -74,7 +74,7 @@
                                  </span>
                          </li>
                                 @foreach ($categories as $category)
-                                <li class="filterbox__item   "><span><a href="/projects/{{ $category->id }}">{{ $category->name }}</a>
+                                <li class="filterbox__item   "><span><a href="/projects/{{ $category->slug }}">{{ $category->name }}</a>
                                         </span>
                                 </li>
                                 @endforeach

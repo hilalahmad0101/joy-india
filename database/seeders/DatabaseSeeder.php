@@ -18,18 +18,19 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         $categories = [
-            ['name' => 'CFI Student Projects'],
-            ['name' => 'Infrastructure'],
-            ['name' => 'Events'],
-            ['name' => 'Research & Development'],
-            ['name' => 'General Fund'],
-            ['name' => 'Batch Reunion Project'],
-            ['name' => 'Students Project'],
+            ['name' => 'CFI Student Projects','slug'=>str()->slug('CFI Student Projects')],
+            ['name' => 'Infrastructure','slug'=>str()->slug('Infrastructure')],
+            ['name' => 'Events','slug'=>str()->slug('Events')],
+            ['name' => 'Research & Development','slug'=>str()->slug('Research & Development')],
+            ['name' => 'General Fund','slug'=>str()->slug('General Fund')],
+            ['name' => 'Batch Reunion Project','slug'=>str()->slug('Batch Reunion Project')],
+            ['name' => 'Students Project','slug'=>str()->slug('Students Project')],
         ];
 
         foreach ($categories as $category) {
             Category::create([
                 'name' => $category['name'],
+                'slug' => $category['slug'],
             ]);
         }
 
