@@ -1,6 +1,6 @@
 <section class="herobanner section">
     <ul class="herobanner__list">
-        <li style="background-image:url({{ asset('images/b7e5ea30a83f0d2ef920378795f719c1ae84645c.jpg')}}"
+        <li style="background-image:url({{ asset('images/b7e5ea30a83f0d2ef920378795f719c1ae84645c.jpg')}})"
             title="IITM Alumni Giving">
             <div class="herobanner__overlaytext">
                 <div class="container">
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </li>
-        <li style="background-image:url({{ asset('images/19cb45dfb9d2e9b035ff6d1bbe3373757161679e.jpg')}}"
+        <li style="background-image:url({{ asset('images/19cb45dfb9d2e9b035ff6d1bbe3373757161679e.jpg')}})"
             title="Prof Mahesh Panchagnula">
             <div class="herobanner__overlaytext">
                 <div class="container">
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </li>
-        <li style="background-image:url({{ asset('images/0c772240019ca365cc731dca6198a802f1febfc0.png')}}"
+        <li style="background-image:url({{ asset('images/0c772240019ca365cc731dca6198a802f1febfc0.png')}})"
             title="Give a boost to key research initiatives">
             <div class="herobanner__overlaytext">
                 <div class="container">
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </li>
-        <li style="background-image:url({{ asset('images/3a77f1312805ee02f004d201059b5adf6c2b7c5b.jpg')}}"
+        <li style="background-image:url({{ asset('images/3a77f1312805ee02f004d201059b5adf6c2b7c5b.jpg')}})"
             title="Mr.Kaviraj">
             <div class="herobanner__overlaytext">
                 <div class="container">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </li>
-        <li style="background-image:url({{ asset('images/8b693414812bf41f6455c583e90b614fbb2fa930.png')}}"
+        <li style="background-image:url({{ asset('images/8b693414812bf41f6455c583e90b614fbb2fa930.png')}})"
             title="Never let another deserving student miss the IITM bus ">
             <div class="herobanner__overlaytext">
                 <div class="container">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </li>
-        <li style="background-image:url({{ asset('images/f19274fd3f8ae9ad7a38e2d5ede46278d19f8a17.png')}}"
+        <li style="background-image:url({{ asset('images/f19274fd3f8ae9ad7a38e2d5ede46278d19f8a17.png')}})"
             title="Kris Gopalakrishnan">
             <div class="herobanner__overlaytext">
                 <div class="container">
